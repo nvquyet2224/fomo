@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="google" content="notranslate">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="StrongBow">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=6.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="format-detection" content="telephone=no">
+  <title>StrongBow</title>
+  <meta name="description" content="StrongBow">
+  <meta name="keywords" content="StrongBow">
+  <meta property="og:title" content="StrongBow">
+  <meta property="og:description" content="StrongBow">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/social-sharing.jpg">
+  <meta property="og:site_name" content="StrongBow">
+  <meta property="og:url" content="fomo.html">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="StrongBow" />
+  <meta name="theme-color" content="#f8f7fc">
+  <link rel="icon" href="images/favicon.png">
+
+  <link rel="preload" as="font" crossorigin type="font/woff2" href="fonts/SVN-Avenir-Next-Regular.woff2" />
+  <link rel="preload" as="font" crossorigin type="font/woff2" href="fonts/SVN-Avenir-Next-Medium.woff2" />
+  <link rel="preload" as="font" crossorigin type="font/woff2" href="fonts/SVN-Avenir-Next-DemiBold.woff2" />
+  <link rel="preload" as="font" crossorigin type="font/woff2" href="fonts/SVN-Avenir-Next-Bold.woff2" />
+  <link rel="preload" as="font" crossorigin type="font/woff2" href="fonts/SVN-Avenir-Next-Light.woff2" />
+
+  <link href="css/styles.css" rel="stylesheet" rel="preload" as="style">
+  <link href="css/popup.css" rel="stylesheet" rel="preload" as="style">
+
+  <link rel="preload" href="images/fomo-kv.jpg" as="image" media="(min-width: 1101px)">
+  <link rel="preload" href="images/fomo-kv-sp.jpg" as="image" media="(max-width: 1100px)">
+  <link rel="preload" href="images/policy-bg.jpg" as="image" media="(min-width: 1101px)">
+  <link rel="preload" href="images/policy-bg-sp.jpg" as="image" media="(max-width: 1100px)">
+  <link rel="preload" href="images/apple-answer.png" as="image">
+
+</head>
+
+<body>
+
+  <div class="share__box">
+    <div class="share__pic">
+      <img id="shareThumb" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        width="1280" height="720" alt="Chill Phút Dừng" />
+    </div>
+    <div class="share-title" id="shareTitle"></div>
+    <div class="user-avatar">
+      <div class="pic user-pic">
+        <img id="shareAvatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          width="300" height="300" alt="avatar" />
+      </div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="header-inr">
+      <a class="logo pic" href="./">
+        <img src="images/logo.svg" alt="StrongBow">
+      </a>
+    </div>
+  </header>
+
+  <div class="page">
+
+    <div class="container">
+
+      <div class="section banner-full banner-game">
+        <div class="banner-box">
+
+          <div class="banner-item">
+
+            <div class="cloud">
+              <div class="cloud-content">
+                <img class="cloud1" src="images/cloud-2.png" alt="apple" />
+                <img class="cloud2" src="images/cloud-2.png" alt="apple" />
+                <img class="cloud3" src="images/cloud-2.png" alt="apple" />
+                <img class="cloud4" src="images/cloud-2.png" alt="apple" />
+              </div>
+            </div>
+
+          </div>
+
+          <div class="answers">
+
+            <div class="answer-mid">
+
+              <ul class="answer-number">
+                <li data-question="1" class="current"></li>
+                <li data-question="2"></li>
+                <li data-question="3"></li>
+              </ul>
+
+              <div class="question-box">
+                <div class="question-item current" data-question="1">CHỌN CHỦ ĐỀ BẠN ĐANG QUAN tâm
+                </div>
+                <div class="question-item" data-question="2">TÌNH TRẠNG Hiện TẠI <br>CỦA BẠN LÀ...?</div>
+                <div class="question-item" data-question="3"><span>Bạn đọc được tin <br>"phải để dành được 100 triệu
+                    trước tuổi…".</span>
+                  bạn sẽ</div>
+              </div>
+
+              <div class="answer-box">
+
+                <div class="answer-items current" data-question="1">
+
+                  <div class="answer-item as1">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Sự <br>nghiệp</div>
+                    </div>
+                  </div>
+
+                  <div class="answer-item as2">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Tình <br>yêu</div>
+                    </div>
+                  </div>
+
+                  <div class="answer-item as3">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Nhan <br>sắc</div>
+                    </div>
+                  </div>
+
+                  <div class="answer-item as4">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Tài <br>chính</div>
+                    </div>
+                  </div>
+
+                  <div class="answer-item as5">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Tin <br>tức</div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="answer-items" data-question="2">
+
+                  <div class="answer-item as1">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Xem ngay “rì viu” của gymer hot, tìm gấp “in4”phòng tập đang trend!</div>
+                    </div>
+                  </div>
+
+                  <div class="answer-item as2">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Sáng trưa check mail, chiều không thấy mail lại nộp đơn nơi khác</div>
+                    </div>
+                  </div>
+
+                  <div class="answer-item as3">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Rủ rê một loạt các đối tượng “tiềm năng”, ai rảnh thì chọn người đó</div>
+                    </div>
+                  </div>
+
+                  <div class="answer-item as4">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Vay mượn tứ phương, bỏ “heo đất” đủ trăm triệu thì thôi</div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="answer-items" data-question="3">
+
+                  <div class="answer-item as1">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Vay mượn tứ phương, bỏ “heo đất” đủ trăm triệu thì thôi</div>
+                    </div>
+                  </div>
+
+                  <div class="answer-item as2">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Vay mượn tứ phương, bỏ “heo đất” đủ trăm triệu thì thôi</div>
+                    </div>
+                  </div>
+
+                  <div class="answer-item as3">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Vay mượn tứ phương, bỏ “heo đất” đủ trăm triệu thì thôi</div>
+                    </div>
+                  </div>
+
+                  <div class="answer-item as4">
+                    <div class="item__wrap">
+                      <div class="item__apple">
+                        <img src="images/apple-answer.png" alt="apple" />
+                      </div>
+                      <div class="item__txt">Vay mượn tứ phương, bỏ “heo đất” đủ trăm triệu thì thôi</div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <div class="footer">
+    <div class="pic">
+      <img class="pc" width="1920" height="35" src="images/dis-claimer.png"
+        alt="Người dưới 18 tuổi không được uống rượu, bia" />
+      <img class="sp" width="751" height="34" src="images/dis-claimer-sp.png"
+        alt="Người dưới 18 tuổi không được uống rượu, bia" />
+    </div>
+  </div>
+
+  <!--Resule Popup-->
+  <div class="popup fomo-result" id="resultPink">
+
+    <div class="result__box">
+
+      <div class="result__item">
+
+        <div class="pic result__kv">
+          <img class="pc" src="images/result-pink.jpg" width="1920" height="1017" alt="pic" />
+          <img class="sp" src="images/result-pink-sp.jpg" width="750" height="1524" alt="pic" />
+        </div>
+
+        <div class="pic lamp">
+          <img class="pc" src="images/lamp.png" width="562" height="169" alt="pic" />
+          <img class="sp" src="images/lamp-sp.png" width="363" height="230" alt="pic" />
+        </div>
+
+        <div class="cloud">
+          <div class="cloud-content">
+            <img class="cloud1" src="images/cloud-1.png" alt="apple" />
+            <img class="cloud2" src="images/cloud-1.png" alt="apple" />
+            <img class="cloud3" src="images/cloud-1.png" alt="apple" />
+            <img class="cloud4" src="images/cloud-1.png" alt="apple" />
+          </div>
+        </div>
+
+        <div class="island">
+          <img class="island__main pc" src="images/island-result.png" alt="island" />
+          <img class="island__main sp" src="images/island-sp.png" alt="island" />
+          <div class="elms">
+            <div class="elm__item elm__item--01">
+              <img src="images/elm1.png" alt="elm" />
+            </div>
+            <div class="elm__item elm__item--02">
+              <img src="images/elm2.png" alt="elm" />
+            </div>
+          </div>
+        </div>
+
+        <div class="user-avatar">
+          <div class="pic user-pic">
+            <img src="images/demo.jpg" width="300" height="300" alt="avatar" />
+          </div>
+        </div>
+
+        <div class="pic fomo-wall">
+          <img class="pc" src="images/wall-pink.png" width="594" height="521" alt="pic" />
+          <img class="sp" src="images/wall-pink-sp.png" width="702" height="684" alt="pic" />
+        </div>
+
+        <div class="result__info">
+          <div class="result-title">
+            <span class="fomo__username">Nguyênnn</span> <span class="fomo-highlight">FOMO CẤP BÁO!</span>
+          </div>
+          <div class="result-brief">
+            <p>Ét ô Ét! Nỗi sợ bỏ lỡ sợ bạn thì đúng hơn vì gương mặt bạn toát lên sự FOMO “thời kỳ cuối”. Bạn không
+              ngần
+              ngại để người khác biết rằng mình đang sợ bỏ lỡ cơ hội phát triển một cách vô lý!
+            </p>
+            <div class="small-title">LỜI KHUYÊN TỪ VŨ TRỤ:</div>
+            <p>Ai đó đã nói “có chill mới có đà”. Thử dừng lại, bật nắp Strongbow và chill để gỡ rối suy nghĩ của chính
+              mình, tìm ra hướng giải quyết và tiếp tục tiến lên trong sự nghiệp nhé!
+            </p>
+          </div>
+        </div>
+
+        <div class="pic noti">
+          <img src="images/noti-pink.png" height="775" alt="Noti">
+        </div>
+
+        <div class="fomo__share">
+          <a href="fomo.html" class="pic">
+            <img src="images/fomo-but-pink.png" alt="Bói lại">
+          </a>
+          <div class="pic share_but">
+            <img src="images/share-but.png" alt="Share">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="popup fomo-result" id="resultYellow">
+    <div class="result__box">
+
+      <div class="result__item">
+
+        <div class="pic result__kv">
+          <img class="pc" src="images/result-yellow.jpg" width="1920" height="1017" alt="pic" />
+          <img class="sp" src="images/result-yellow-sp.jpg" width="750" height="1524" alt="pic" />
+        </div>
+
+        <div class="pic lamp">
+          <img class="pc" src="images/lamp.png" width="562" height="169" alt="pic" />
+          <img class="sp" src="images/lamp-sp.png" width="363" height="230" alt="pic" />
+        </div>
+
+        <div class="cloud">
+          <div class="cloud-content">
+            <img class="cloud1" src="images/cloud-1.png" alt="apple" />
+            <img class="cloud2" src="images/cloud-1.png" alt="apple" />
+            <img class="cloud3" src="images/cloud-1.png" alt="apple" />
+            <img class="cloud4" src="images/cloud-1.png" alt="apple" />
+          </div>
+        </div>
+
+        <div class="island">
+          <img class="island__main pc" src="images/island-result.png" alt="island" />
+          <img class="island__main sp" src="images/island-sp.png" alt="island" />
+          <div class="elms">
+            <div class="elm__item elm__item--01">
+              <img src="images/elm1.png" alt="elm" />
+            </div>
+            <div class="elm__item elm__item--02">
+              <img src="images/elm2.png" alt="elm" />
+            </div>
+          </div>
+        </div>
+
+        <div class="user-avatar">
+          <div class="pic user-pic">
+            <img src="images/demo.jpg" width="300" height="300" alt="avatar" />
+          </div>
+        </div>
+
+        <div class="pic fomo-wall">
+          <img class="pc" src="images/wall-yellow.png" width="594" height="521" alt="pic" />
+          <img class="sp" src="images/wall-yellow-sp.png" width="704" height="684" alt="pic" />
+        </div>
+
+        <div class="result__info">
+          <div class="result-title">
+            <span class="fomo__username">Nguyênnn</span>không hề&nbsp;<span class="fomo-highlight"> FOMO</span>
+          </div>
+          <div class="result-brief">
+            <p> Gương mặt bạn giãn ra vì không sợ bỏ lỡ. Không điều gì có thể khiến bạn cảm thấy “thiếu sót” vì bạn đang
+              tận hưởng cuộc sống một cách trọn vẹn dù tình trạng yêu đương có là gì!</p>
+            <div class="small-title">LỜI KHUYÊN TỪ VŨ TRỤ:</div>
+            <p> Tình trạng yêu đương có ra sao cũng có cái chill riêng, hãy tiếp tục giữ vững tinh thần chill này, nó sẽ
+              còn giúp bạn tiến xa trong nhiều lĩnh vực khác của cuộc sống nữa đấy!
+            </p>
+          </div>
+        </div>
+        
+        <div class="pic noti">
+          <img src="images/noti-yellow.png" height="775" alt="Noti">
+        </div>
+
+        <div class="fomo__share">
+          <a href="fomo.html" class="pic">
+            <img src="images/fomo-but-yellow.png" alt="Bói lại">
+          </a>
+          <div class="pic share_but">
+            <img src="images/share-but.png" alt="Share">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="popup fomo-result" id="resultOrange">
+    <div class="result__box">
+
+      <div class="result__item">
+
+        <div class="pic result__kv">
+          <img class="pc" src="images/result-orange.jpg" width="1920" height="1017" alt="pic" />
+          <img class="sp" src="images/result-orange-sp.jpg" width="750" height="1524" alt="pic" />
+        </div>
+
+        <div class="pic lamp">
+          <img class="pc" src="images/lamp.png" width="562" height="169" alt="pic" />
+          <img class="sp" src="images/lamp-sp.png" width="363" height="230" alt="pic" />
+        </div>
+
+        <div class="cloud">
+          <div class="cloud-content">
+            <img class="cloud1" src="images/cloud-1.png" alt="apple" />
+            <img class="cloud2" src="images/cloud-1.png" alt="apple" />
+            <img class="cloud3" src="images/cloud-1.png" alt="apple" />
+            <img class="cloud4" src="images/cloud-1.png" alt="apple" />
+          </div>
+        </div>
+
+        <div class="island">
+          <img class="island__main pc" src="images/island-result.png" alt="island" />
+          <img class="island__main sp" src="images/island-sp.png" alt="island" />
+          <div class="elms">
+            <div class="elm__item elm__item--01">
+              <img src="images/elm1.png" alt="elm" />
+            </div>
+            <div class="elm__item elm__item--02">
+              <img src="images/elm2.png" alt="elm" />
+            </div>
+          </div>
+        </div>
+
+        <div class="user-avatar">
+          <div class="pic user-pic">
+            <img src="images/demo.jpg" width="300" height="300" alt="avatar" />
+          </div>
+        </div>
+
+        <div class="pic fomo-wall">
+          <img class="pc" src="images/wall-orange.png" width="594" height="521" alt="pic" />
+          <img class="sp" src="images/wall-orange-sp.png" width="704" height="684" alt="pic" />
+        </div>
+
+        <div class="result__info">
+          <div class="result-title">
+            <span class="fomo__username">Nguyênnn</span> <span class="fomo-highlight">FOMO</span> &nbsp;sương sương
+          </div>
+          <div class="result-brief">
+            <p>Bạn có nguy cơ trở thành người sợ bỏ lỡ tình yêu thứ thiệt dựa vào dấu hiệu căng cơ mặt khi cho rằng mình
+              đã vụt mất một vài trải nghiệm rồi đấy.
+            </p>
+            <div class="small-title">LỜI KHUYÊN TỪ VŨ TRỤ:</div>
+            <p>Chấn chỉnh tinh thần lại nào! Không quá muộn để chill phút dừng và có một cái nhìn rộng hơn về những thứ
+              bạn có thể tận hưởng, như là chill cùng Strongbow!</p>
+          </div>
+        </div>
+
+        <div class="pic noti">
+          <img src="images/noti-orange.png" height="775" alt="Noti">
+        </div>
+
+        <div class="fomo__share">
+          <a href="fomo.html" class="pic">
+            <img src="images/fomo-but-orange.png" alt="Bói lại">
+          </a>
+          <div class="pic share_but">
+            <img src="images/share-but.png" alt="Share">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="popup fomo-result" id="resultDarkOrange">
+    <div class="result__box">
+
+      <div class="result__item">
+
+        <div class="pic result__kv">
+          <img class="pc" src="images/result-dark-orange.jpg" width="1920" height="1017" alt="pic" />
+          <img class="sp" src="images/result-dark-orange-sp.jpg" width="750" height="1524" alt="pic" />
+        </div>
+
+        <div class="pic lamp">
+          <img class="pc" src="images/lamp.png" width="562" height="169" alt="pic" />
+          <img class="sp" src="images/lamp-sp.png" width="363" height="230" alt="pic" />
+        </div>
+
+        <div class="cloud">
+          <div class="cloud-content">
+            <img class="cloud1" src="images/cloud-1.png" alt="apple" />
+            <img class="cloud2" src="images/cloud-1.png" alt="apple" />
+            <img class="cloud3" src="images/cloud-1.png" alt="apple" />
+            <img class="cloud4" src="images/cloud-1.png" alt="apple" />
+          </div>
+        </div>
+
+        <div class="island">
+          <img class="island__main pc" src="images/island-result.png" alt="island" />
+          <img class="island__main sp" src="images/island-sp.png" alt="island" />
+          <div class="elms">
+            <div class="elm__item elm__item--01">
+              <img src="images/elm1.png" alt="elm" />
+            </div>
+            <div class="elm__item elm__item--02">
+              <img src="images/elm2.png" alt="elm" />
+            </div>
+          </div>
+        </div>
+
+        <div class="user-avatar">
+          <div class="pic user-pic">
+            <img src="images/demo.jpg" width="300" height="300" alt="avatar" />
+          </div>
+        </div>
+
+        <div class="pic fomo-wall">
+          <img class="pc" src="images/wall-dark-orange.png" width="594" height="521" alt="pic" />
+          <img class="sp" src="images/wall-dark-orange-sp.png" width="704" height="684" alt="pic" />
+        </div>
+
+        <div class="result__info">
+          <div class="result-title">
+            <span class="fomo__username">Nguyênnn</span> <span class="fomo-highlight">FOMO</span> &nbsp;cấp số nhân
+          </div>
+          <div class="result-brief">
+            <p> Nếp nhăn trên trán bạn đã dần hình thành! Tình yêu chính là thứ quan trọng hàng đầu đối với bạn lúc này.
+              Đi đâu làm gì, bạn cũng nghĩ tới tình yêu đầu tiên.
+            </p>
+            <div class="small-title">LỜI KHUYÊN TỪ VŨ TRỤ:</div>
+            <p>Chộn rộn trong tình cảm chỉ khiến bạn đi sai đường. Chill phút dừng và tìm kiếm những điều bạn thực sự
+              yêu thích, biết đâu tình yêu sẽ đến ngay sau đấy thì sao?
+            </p>
+          </div>
+        </div>
+        
+        <div class="pic noti">
+          <img src="images/noti-dark-orange.png" height="775" alt="Noti">
+        </div>
+
+        <div class="fomo__share">
+          <a href="fomo.html" class="pic">
+            <img src="images/fomo-but-dark-orange.png" alt="Bói lại">
+          </a>
+          <div class="pic share_but">
+            <img src="images/share-but.png" alt="Share">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!--/Resule Popup-->
+
+  <!--Popup Login-->
+  <div class="popup apple__right popup-login" id="loginPop">
+
+    <div class="overlay-pop"></div>
+
+    <div class="cloud">
+      <div class="cloud-content">
+        <img class="cloud1" src="images/cloud-2.png" alt="apple" />
+        <img class="cloud2" src="images/cloud-2.png" alt="apple" />
+        <img class="cloud3" src="images/cloud-2.png" alt="apple" />
+        <img class="cloud4" src="images/cloud-2.png" alt="apple" />
+      </div>
+    </div>
+
+    <div class="pop__apple">
+      <div class="pic apple"><img src="images/apple-answer.png" alt="apple" /></div>
+    </div>
+
+    <div class="island">
+      <img class="island__main pc" src="images/island.png" alt="island" />
+      <img class="island__main sp" src="images/island-sp.png" alt="island" />
+      <div class="elms">
+        <div class="elm__item elm__item--01">
+          <img src="images/elm1.png" alt="elm" />
+        </div>
+        <div class="elm__item elm__item--02">
+          <img src="images/elm2.png" alt="elm" />
+        </div>
+      </div>
+    </div>
+
+    <div class="popup-inr size__medium">
+
+      <div class="fomo__itemms">
+
+        <div class="fomo__itemm phone active">
+
+          <div class="popup-title popup-title--small">THAM GIA NHẬN QUÀ ĐỘC CHILL <br><span class="highlight">TỪ
+              STRONGBOW</span></div>
+
+          <div class="brief brief__form">
+            <p>Nhập số điện thoại, <br>trúng thưởng Strongbow báo liền tay!
+            </p>
+          </div>
+
+          <div class="form-group">
+            <input type="text" class="input-txt" id="txt_phone" name="txt_phone" placeholder="09xx.xxx.xxx" />
+            <div class="error">
+              <p>Số điện thoại không đúng định dạng</p>
+            </div>
+          </div>
+
+          <div class="buts">
+            <button type="button" class="but but-next" id="btnSendPhone">
+              <span>Gửi</span>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="fomo__itemm otp">
+
+          <div class="popup-title popup-title--small">MÃ OTP ĐÃ ĐƯỢC GỬI ĐẾN SỐ <br><span
+              class="user__phone">[0999999999]</span></div>
+
+          <div class="brief brief__form">
+            <p>Vui lòng nhập tại đây</p>
+          </div>
+
+          <div class="form-group">
+            <input type="text" class="input-txt" id="txt_otp" name="txt_otp" placeholder="123456" />
+            <div class="error">
+              <p>Bạn đã nhập sai OTP</p>
+            </div>
+          </div>
+
+          <div class="buts flex__jus">
+            <button type="button" class="but but-cancel" id="btnBackToPhone">
+              <span>Nhập lại SĐT</span>
+            </button>
+            <button type="button" class="but" id="btnConfirmOTP">
+              <span>XÁC NHẬN</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!--/Popup Login-->
+
+  <!--Popup social back -->
+  <div class="popup popup-see-you-again popup_social_back" id="socialBackPop">
+
+    <div class="overlay-pop"></div>
+
+    <div class="cloud">
+      <div class="cloud-content">
+        <img class="cloud1" src="images/cloud-1.png" alt="apple" />
+        <img class="cloud2" src="images/cloud-1.png" alt="apple" />
+        <img class="cloud3" src="images/cloud-1.png" alt="apple" />
+        <img class="cloud4" src="images/cloud-1.png" alt="apple" />
+      </div>
+    </div>
+
+    <div class="pop__apple">
+      <div class="pic apple"><img src="images/apple-answer.png" alt="apple" /></div>
+    </div>
+
+    <div class="island sp">
+      <img class="island__main pc" src="images/island.png" alt="island" />
+      <img class="island__main sp" src="images/island-sp.png" alt="island" />
+      <div class="elms">
+        <div class="elm__item elm__item--01">
+          <img src="images/elm1.png" alt="elm" />
+        </div>
+        <div class="elm__item elm__item--02">
+          <img src="images/elm2.png" alt="elm" />
+        </div>
+      </div>
+    </div>
+
+    <div class="popup-inr size__medium">
+      <div class="popup-title">Tâm sinh tướng, <br>tướng sinh nét FOMO. 
+        </div>
+
+      <div class="brief brief__see-you">
+        <p>Thử bói mức độ FOMO <br>của riêng bạn nhé!</p>
+      </div>
+
+      <div class="buts">
+        <a href="./" class="but but-next">
+          <span>Bói ngay</span>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+  <!--/Popup social back -->
+
+  <script src="js/common.js"></script>
+  <script src="js/jquery-min.js"></script>
+  <script src="js/html2canvas.js"></script>
+  <script src="js/jquery.nicescroll.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
